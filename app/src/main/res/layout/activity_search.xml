@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        >
+        <ScrollView
+            android:id="@+id/contact_details1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/hometoolbar">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/category1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                tools:ignore="MissingConstraints" />
+
+        </ScrollView>
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+
+    <RelativeLayout
+        android:id="@+id/page_android_small___3_ek1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp">
+
+        <TextView
+            android:id="@+id/producttoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rectangle_1_shape"
+            android:gravity="center"
+            android:text="Companies"
+            android:textColor="@color/_bg__splash_screen_ek2_color"
+            android:textSize="20sp" />
+
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search"
+            android:layout_width="393dp"
+            android:layout_height="39dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="18dp"
+            android:layout_below="@+id/producttoolbar"
+            app:queryHint="Search..."
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="4"
+            android:shadowRadius="4"
+            android:background="@drawable/rectangle_2_shape" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/searchcategory"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/search"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toBottomOf="@+id/search"
+            tools:ignore="MissingConstraints" />
+
+    </RelativeLayout>
+
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/nav_bottomview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1"
+            app:menu="@menu/bottommenu" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

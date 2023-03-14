@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "729244936319",
+    "firebase_url": "https://uma-automobiles-default-rtdb.firebaseio.com",
+    "project_id": "uma-automobiles",
+    "storage_bucket": "uma-automobiles.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729244936319:android:014652457adbaf1299f74a",
+        "android_client_info": {
+          "package_name": "com.example.automobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729244936319-paed3cnfrgbvga5sib7os8ln0fbtijsh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwDdbF_B5LEEzgDN33n9JPxbLuuW_uyHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729244936319-paed3cnfrgbvga5sib7os8ln0fbtijsh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729244936319:android:3e925207400a776a99f74a",
+        "android_client_info": {
+          "package_name": "com.example.umaautomobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729244936319-paed3cnfrgbvga5sib7os8ln0fbtijsh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwDdbF_B5LEEzgDN33n9JPxbLuuW_uyHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729244936319-paed3cnfrgbvga5sib7os8ln0fbtijsh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
